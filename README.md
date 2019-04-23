@@ -18,17 +18,20 @@ php tests/start.php
 ```
 ### Description
 For converting Object to __JSON__:
-```
+```php
+<?php
 $toJson = new \serealizeme\SerializeToJson(new Object);
 echo $toJson->getResult();
 ```
 For converting Object to __Yaml__:
-```
+```php
+<?php
 $toYaml = new \serealizeme\SerializeToYaml(new Object);
 echo $toYaml->getResult();
 ```
 For converting Object to __XML__:
-```
+```php
+<?php
 $toXml = new \serealizeme\SerializeToXml(new Object);
 echo $toXml->getResult();
 ```

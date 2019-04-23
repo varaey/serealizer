@@ -1,12 +1,10 @@
 <?php
 
-namespace serealizeme;
-
 require_once __DIR__ . '/AbstractSerializeMe.php';
 
 use SimpleXMLElement;
 
-class SerializeToXml extends \serealizeme\AbstractSerializeMe
+class SerializeToXml extends AbstractSerializeMe
 {
     public function getResult()
     {

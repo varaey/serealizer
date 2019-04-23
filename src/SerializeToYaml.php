@@ -1,12 +1,10 @@
 <?php
 
-namespace serealizeme;
-
 require_once __DIR__ . '/AbstractSerializeMe.php';
 
 use Symfony\Component\Yaml\Yaml;
 
-class SerializeToYaml extends \serealizeme\AbstractSerializeMe
+class SerializeToYaml extends AbstractSerializeMe
 {
     public function getResult()
     {

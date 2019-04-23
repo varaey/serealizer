@@ -1,10 +1,7 @@
 <?php
-
-namespace serealizeme;
-
 require_once __DIR__ . '/SerializeMeInterface.php';
 
-class AbstractSerializeMe implements SerializeMeInterface
+abstract class AbstractSerializeMe implements SerializeMeInterface
 {
     protected $serealized;
     public function __construct($object)
