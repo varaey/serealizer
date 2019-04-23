@@ -1,6 +1,5 @@
 <?php
-
-require_once __DIR__ . '/AbstractSerializeMe.php';
+namespace App\Serializeme;
 
 class SerializeToJson extends AbstractSerializeMe
 {

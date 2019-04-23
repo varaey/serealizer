@@ -1,4 +1,5 @@
 <?php
+namespace App\Serializeme;
 
 interface SerializeMeInterface
 {

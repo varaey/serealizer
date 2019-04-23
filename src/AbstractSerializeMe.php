@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/SerializeMeInterface.php';
+namespace App\Serializeme;
 
 abstract class AbstractSerializeMe implements SerializeMeInterface
 {
