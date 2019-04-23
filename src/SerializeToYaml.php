@@ -9,6 +9,8 @@ class SerializeToYaml extends AbstractSerializeMe
     {
         $data = parent::getSerealized();
         $yaml = Yaml::dump($data);
+
+        //remove not needed symbols from $yaml before return
         return str_replace(['"', '\0'], ['', ''],$yaml);
     }
 }

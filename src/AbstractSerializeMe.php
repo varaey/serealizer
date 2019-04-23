@@ -11,7 +11,7 @@ abstract class AbstractSerializeMe implements SerializeMeInterface
     protected function getSerealized(){
         $array = $this->serealized;
         if (!is_array($array) || empty($array)) {
-            throw new \DomainException('Object is empty');
+            throw new \ImpossibleEmptyArray('Object is empty');
         }
 
         return $this->serealized;

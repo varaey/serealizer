@@ -11,6 +11,8 @@ class SerializeToXml extends AbstractSerializeMe
         $xml = new SimpleXMLElement('<object/>');
         $this->arrayToXml($data, $xml);
         $result =  $xml->asXML();
+
+        //convert oneline xml to multiline
         $result = str_replace("><", ">\n<", $result);
         return $result;
     }
