@@ -10,7 +10,7 @@
       "email": "svetozarrambler@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
     "symfony/yaml": "^3.2"
